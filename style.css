@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&family=Poppins&family=Roboto+Slab&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+body{
+    font-family: 'Mooli', sans-serif;
+}
+.header{
+   background-image: url(images/new\ year\ 3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:7in;
+   width: 15in;
+   border-radius: 30px;
+}
+.header{
+    margin: 0 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.header-info h4{
+    font-size: 35px;
+}
+.header-info{
+    font-size: 30px;
+    margin: 500px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   height: 300px;
+   
+   padding: 40px;
+   border-radius: 30px;
+ 
+}
+.offer h1{
+color: red;
+font-size: 55px;
+}
+.offer h5{
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.offer h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.offer img{
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.welcome{
+    background-image: url(images/new\ year.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:6in;
+   width: 15in;
+   border-radius: 30px;
+   
+}
+.welcome{
+    margin: 0 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: #000000;
+    
+}
+.welcome-info h4{
+    font-size:35px ;
+}
+.welcome-info h1{
+    font-size: 50px;
+}
+.welcome-info p{
+    font-size: 20px;
+    white-space: wrap;
+}
+.welcome-info{
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height:350px;
+    width: 60%;
+    padding: 50px;
+    border-radius: 40px;
+}
+.holiday-sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.sale-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sale-info p{
+    white-space: wrap;
+    justify-self: justify;
+    font-size: 18px;
+    height: 10px;
+    width: 500px;
+}
+.sale-info h4{
+    font-size: 30px;
+}
+.sale-info h1{
+    font-size: 40px;
+}
+.sale-info span{
+    color: red;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;  
+    margin: 0 220px;
+    align-items: center;
+    
+}
+#product-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products img{
+    height: 140px;
+    border-radius: 25px;
+    width: 140px;
+}
+.products-img{
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+    border: 2px solid  lightgray;
+    transition: box-shadow, transform, 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.products-img:hover{
+    box-shadow: none;
+    transform: translateY(-3px);
+}
+.subscribe{
+    height: 300px;
+    width: calc(100% - 450px);
+    background-color: rgb(243, 221, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 220px;
+   border-radius: 45px;
+   
+}
+.subscribe-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-info h2{
+    font-size: 35px;
+}
+.subscribe-info p{
+    color: grey;
+    font-size: 20px;
+}
+.subscribe-info button{
+    border: none;
+    height: 45px;
+    width: 120px;
+    background: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50px;
+
+}
+.subscribe-info input{
+    height: 30px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+}
